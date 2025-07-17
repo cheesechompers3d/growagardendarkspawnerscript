@@ -38,7 +38,7 @@ footer:
       links:
         - text: "Grow a Garden Dark Spawner Script"
           url: "https://www.growagardendarkspawnerscript.org"
-		- text: "Spawner Script Grow a Garden"
+        - text: "Spawner Script Grow a Garden"
           url: "https://www.spawnerscriptgrowagarden.org"
         - text: "Steal a Brainrot Script"
           url: "https://www.stealabrainrot.online"
