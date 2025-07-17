@@ -30,7 +30,7 @@ export default function Navbar({
   const router = useRouter()
   const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [siteName, setSiteName] = useState("Steal a Brainrot Script")
+  const [siteName, setSiteName] = useState("Grow a Garden Dark Spawner Script")
   const [logo, setLogo] = useState("/images/logo.png");
 
   // 动态 navItems
@@ -50,7 +50,7 @@ export default function Navbar({
     fetch('/api/config')
       .then(res => res.json())
       .then(data => {
-        setSiteName(data.siteName || "Steal a Brainrot Script");
+        setSiteName(data.siteName || "Grow a Garden Dark Spawner Script");
         setLogo(data.logo || "/images/logo.png");
       })
       .catch(error => {
